@@ -1,5 +1,3 @@
-import Axios from 'axios';
-
 const apiKey = 'IrpYJ0Y1izkugouGnZnYcufaCupkZDdsaIW2Ry-dmxe3KW4kljy2DlpqtP-u-HVbcj6nN0I8LGo1W1jgIKXETVZdpc71YcfRlFpddI0ufCIxgcm-FvaDsbr3ihMQX3Yx';
 
 const Yelp = {
