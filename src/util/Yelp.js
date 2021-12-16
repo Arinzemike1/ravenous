@@ -1,8 +1,10 @@
+import Axios from 'axios';
+
 const apiKey = 'IrpYJ0Y1izkugouGnZnYcufaCupkZDdsaIW2Ry-dmxe3KW4kljy2DlpqtP-u-HVbcj6nN0I8LGo1W1jgIKXETVZdpc71YcfRlFpddI0ufCIxgcm-FvaDsbr3ihMQX3Yx';
 
 const Yelp = {
   search(term, location, sortBy) {
-    return fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`, {
+    return fetch(`/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`, {
       headers: {
         Authorization: `Bearer ${apiKey}`
       }
